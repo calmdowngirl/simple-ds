@@ -1,20 +1,17 @@
 {
   "name": "simple-ds",
-  "version": "0.0.7",
+  "version": "0.0.4",
   "description": "Simple Data structure",
   "author": {
     "name": "calmdowngirl"
   },
-  "main": "lib/index.js",
+  "main": "index.js",
   "type": "module",
-  "files": [
-    "lib/**/*"
-  ],
   "scripts": {
     "test": "npx jest",
-    "build": "npx tsc",
+    "build": "npx tsc && cp package.json .npmignore lib/",
     "prebuild": "npm version patch",
-    "postbuild": "npm publish",
+    "postbuild": "cd lib && npm publish",
     "postpublish": "git push && git push origin --tags"
   },
   "repository": {
