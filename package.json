@@ -5,7 +5,7 @@
   "author": {
     "name": "calmdowngirl"
   },
-  "main": "lib/index.js",
+  "main": "index.js",
   "type": "module",
   "files": [
     "lib/**/*"
