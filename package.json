@@ -8,7 +8,6 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "npx jest",
     "build": "npx tsc && cp package.json .npmignore lib/",
     "prebuild": "npm version patch",
     "postbuild": "cd lib && npm publish",
