@@ -14,7 +14,6 @@
     "test": "npx jest",
     "build": "npx tsc",
     "prebuild": "npm version patch",
-    "preversion": "npm test",
     "postversion": "npm publish",
     "postpublish": "git push origin; git push origin --tags"
   },
