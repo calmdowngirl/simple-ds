@@ -52,7 +52,7 @@ describe('SingleLinkedList', () => {
     ll.removeNextByValue(null) // remove first
     expect(ll.size).toBe(1)
     expect(ll.size).toBe(ll.count())
-    expect(ll.findFirst(null).next.data).toBe(ll.findAt(0).data)
+    expect(ll.findFirst(null)?.next?.data).toBe(ll.findAt(0)?.data)
   })
 
   it('should clear the list', () => {

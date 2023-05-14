@@ -1,9 +1,5 @@
-import SingleLinkedList from './src/SingleLinkedList'
-import Stack from './src/Stack'
-import Queue from './src/Queue'
+import SingleLinkedList from './src/SingleLinkedList.js'
+import Stack from './src/Stack.js'
+import Queue from './src/Queue.js'
 
-module.exports = {
-  SingleLinkedList,
-  Stack,
-  Queue,
-}
+export { SingleLinkedList, Stack, Queue }
