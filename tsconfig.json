@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "ES2022",
+    "module": "es2020",
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "outDir": "./lib",
+    "types": ["node", "jest"]
+  },
+  "exclude": ["test/**/*.ts", "tests/**/*.ts", "**/*.spec.ts", "**/*.test.ts"]
+}
