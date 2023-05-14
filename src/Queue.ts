@@ -1,4 +1,4 @@
-import SingleLinkedList from './SingleLinkedList'
+import SingleLinkedList from './SingleLinkedList.js'
 
 class Queue<T> {
   #queue: SingleLinkedList<T>
