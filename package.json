@@ -8,7 +8,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "npx tsc && cp package.json .npmignore lib/",
+    "build": "npx tsc && cp package.json .npmignore README.md LICENSE lib/",
     "prebuild": "npm version patch",
     "postbuild": "cd lib && npm publish",
     "postpublish": "git push && git push origin --tags"
