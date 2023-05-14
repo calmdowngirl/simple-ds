@@ -1,4 +1,4 @@
-import SingleLinkedList from './SingleLinkedList.js'
+import SingleLinkedList from './SingleLinkedList'
 
 class Stack<T> {
   #stack: SingleLinkedList<T>

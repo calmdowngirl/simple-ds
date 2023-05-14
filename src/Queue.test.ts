@@ -19,10 +19,10 @@ describe('Queue', () => {
 
   it('should dequeue', () => {
     expect(q.size).toBe(3)
-    q.dequeue()
+    console.log(q.dequeue())
     expect(q.size).toBe(2)
     expect(q.first).toBe(1)
-    q.dequeue()
+    console.log(q.dequeue())
     expect(q.size).toBe(1)
     expect(q.first).toBe(2)
   })
